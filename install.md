@@ -9,7 +9,7 @@ Este documento describe paso a paso la instalación de **Ubuntu Server 24.04.3**
 El instalador de Ubuntu inicia mostrando un menú con múltiples idiomas.  
 Selecciona **Español** y presiona **Enter**.
 
-![Seleccionar idioma](ubuntu-24.04.3-image1.png)
+![Seleccionar idioma](images/ubuntu24/ubuntu-24.04.3-image1.png)
 
 ---
 
@@ -17,7 +17,7 @@ Selecciona **Español** y presiona **Enter**.
 
 Elige la distribución **Spanish** para el teclado y confirma con **Hecho**.
 
-![Configurar teclado](ubuntu-24.04.3-image2.png)
+![Configurar teclado](images/ubuntu24/ubuntu-24.04.3-image2.png)
 
 ---
 
@@ -25,7 +25,7 @@ Elige la distribución **Spanish** para el teclado y confirma con **Hecho**.
 
 Se recomienda seleccionar **Ubuntu Server (minimized)** para una instalación ligera.
 
-![Tipo de instalación](ubuntu-24.04.3-image3.png)
+![Tipo de instalación](images/ubuntu24/ubuntu-24.04.3-image3.png)
 
 ---
 
@@ -36,7 +36,7 @@ Si tienes DHCP, verás que obtiene IP sin intervención manual.
 
 Pulsa **Hecho**.
 
-![Configuración de red](ubuntu-24.04.3-image4.png)
+![Configuración de red](images/ubuntu24/ubuntu-24.04.3-image4.png)
 
 ---
 
@@ -44,7 +44,7 @@ Pulsa **Hecho**.
 
 Si no usas proxy, deja el campo vacío.
 
-![Proxy](ubuntu-24.04.3-image5.png)
+![Proxy](images/ubuntu24/ubuntu-24.04.3-image5.png)
 
 ---
 
@@ -52,11 +52,11 @@ Si no usas proxy, deja el campo vacío.
 
 Puedes usar el mirror por defecto o uno local.
 
-![Mirror](ubuntu-24.04.3-image6.png)
+![Mirror](images/ubuntu24/ubuntu-24.04.3-image6.png)
 
 El instalador verificará el repositorio:
 
-![Mirror test](ubuntu-24.04.3-image7.png)
+![Mirror test](images/ubuntu24/ubuntu-24.04.3-image7.png)
 
 ---
 
@@ -64,7 +64,7 @@ El instalador verificará el repositorio:
 
 Selecciona **Custom storage layout** para particionar manualmente.
 
-![Almacenamiento personalizado](ubuntu-24.04.3-image8.png)
+![Almacenamiento personalizado](images/ubuntu24/ubuntu-24.04.3-image8.png)
 
 ---
 
@@ -72,7 +72,7 @@ Selecciona **Custom storage layout** para particionar manualmente.
 
 Ingresa tamaño: **1G** → formato **ext4** → Montaje → **/boot** → Crear
 
-![Partición boot creada](ubuntu-24.04.3-image11-boot.png)
+![Partición boot creada](images/ubuntu24/ubuntu-24.04.3-image11-boot.png)
 
 ---
 
@@ -80,8 +80,8 @@ Ingresa tamaño: **1G** → formato **ext4** → Montaje → **/boot** → Crear
 
 Ingresa tamaño: **2G** → formato **swap** → Crear
 
-![Crear swap](ubuntu-24.04.3-image12-swap.png)
-![Swap creada](ubuntu-24.04.3-image13-swap.png)
+![Crear swap](images/ubuntu24/ubuntu-24.04.3-image12-swap.png)
+![Swap creada](images/ubuntu24/ubuntu-24.04.3-image13-swap.png)
 
 ---
 
@@ -89,8 +89,8 @@ Ingresa tamaño: **2G** → formato **swap** → Crear
 
 Formato: **ext4** → Montaje → **/**
 
-![Crear root](ubuntu-24.04.3-image14-root.png)
-![Root creada](ubuntu-24.04.3-image15-root.png)
+![Crear root](images/ubuntu24/ubuntu-24.04.3-image14-root.png)
+![Root creada](images/ubuntu24/ubuntu-24.04.3-image15-root.png)
 
 ---
 
@@ -98,8 +98,8 @@ Formato: **ext4** → Montaje → **/**
 
 Tamaño: **11.997 G** → Formato recomendado: **xfs** → Montaje **/var**
 
-![Crear var](ubuntu-24.04.3-image16-var.png)
-![Var creada](ubuntu-24.04.3-image17-var.png)
+![Crear var](images/ubuntu24/ubuntu-24.04.3-image16-var.png)
+![Var creada](images/ubuntu24/ubuntu-24.04.3-image17-var.png)
 
 ---
 
@@ -107,7 +107,7 @@ Tamaño: **11.997 G** → Formato recomendado: **xfs** → Montaje **/var**
 
 Tu tabla final deberá verse así:
 
-![Resumen de particiones](ubuntu-24.04.3-image18-resumen.png)
+![Resumen de particiones](images/ubuntu24/ubuntu-24.04.3-image18-resumen.png)
 
 ---
 
@@ -120,7 +120,7 @@ Define:
 - Nombre de usuario  
 - Contraseña  
 
-![Confirmar acción destructiva](ubuntu-24.04.3-image20-config.png)
+![Confirmar acción destructiva](images/ubuntu24/ubuntu-24.04.3-image20-config.png)
 
 ---
 
